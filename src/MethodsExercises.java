@@ -56,7 +56,7 @@ public class MethodsExercises {
             System.out.println(results);
             boolean invalidResponse = true;
             do {
-                System.out.println("Do you want to roll again?: [y,n]");
+                System.out.println("Do you want to roll again?: [Y,N]");
                 String userResponse = scan2.next();
                 if (userResponse.toLowerCase().startsWith("y")) {
                     rollAgain = true;

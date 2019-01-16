@@ -1,10 +1,13 @@
 import java.util.Scanner;
 public class HighLow {
     public static String guessingGame(){
+
+
         double rand = Math.floor(Math.random() * 100) + 1;
         int num = (int) rand;
         int numOfGuesses = 10;
         String result = "";
+
         System.out.printf("You have %d guesses!%n",numOfGuesses);
         for(int guesses = 1; guesses <= numOfGuesses; guesses++) {
             System.out.println("Guess a number between 1 and 100");
@@ -28,6 +31,8 @@ public class HighLow {
     }
     public static void main(String[] args){
         guessingGame();
+
+
 
 
 
