@@ -23,5 +23,6 @@ public class InputTest {
             System.out.println("ok");
         }
 
+
     }
 }
